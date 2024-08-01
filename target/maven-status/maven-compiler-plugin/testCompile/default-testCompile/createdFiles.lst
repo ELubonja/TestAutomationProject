@@ -1,0 +1,17 @@
+com\softwaretestingboard\magento\steps\WishListSteps.class
+com\softwaretestingboard\magento\steps\common\CommonSteps.class
+com\softwaretestingboard\magento\steps\CreateAccountSteps.class
+com\softwaretestingboard\magento\pages\HomePage.class
+com\softwaretestingboard\magento\runners\TestRunner.class
+com\softwaretestingboard\magento\steps\Hooks.class
+com\softwaretestingboard\magento\utils\RandomEmailGenerator.class
+com\softwaretestingboard\magento\steps\CheckPageFiltersSteps.class
+com\softwaretestingboard\magento\pages\CustomerAccountPage.class
+com\softwaretestingboard\magento\pages\ShoppingCartPage.class
+com\softwaretestingboard\magento\pages\CustomerCreateAccountPage.class
+com\softwaretestingboard\magento\pages\CustomerSignInPage.class
+com\softwaretestingboard\magento\steps\ShoppingCartSteps.class
+com\softwaretestingboard\magento\utils\WebDriverFactory.class
+com\softwaretestingboard\magento\steps\SignInSteps.class
+com\softwaretestingboard\magento\utils\RandomPasswordGenerator.class
+com\softwaretestingboard\magento\pages\JacketPage.class
