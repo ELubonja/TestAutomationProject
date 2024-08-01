@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-01T22:52:10 CEST" name="Surefire suite" finished-at="2024-08-01T22:53:04 CEST" duration-ms="53816">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.softwaretestingboard.magento.runners.TestRunner@2f7c2f4f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-01T22:52:10 CEST" name="Surefire test" finished-at="2024-08-01T22:53:04 CEST" duration-ms="53816">
+      <class name="com.softwaretestingboard.magento.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.softwaretestingboard.magento.runners.TestRunner@2f7c2f4f]" started-at="2024-08-01T22:52:10 CEST" name="setUpClass" finished-at="2024-08-01T22:52:10 CEST" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@11e9ac24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.softwaretestingboard.magento.runners.TestRunner@2f7c2f4f]" started-at="2024-08-01T22:52:10 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T22:52:20 CEST" duration-ms="9553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User creates an account successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create Account Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.softwaretestingboard.magento.runners.TestRunner@2f7c2f4f]" started-at="2024-08-01T22:52:20 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T22:52:28 CEST" duration-ms="8400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User signs in and signs out successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign In Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.softwaretestingboard.magento.runners.TestRunner@2f7c2f4f]" started-at="2024-08-01T22:52:28 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T22:52:37 CEST" duration-ms="9158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify page filters functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check page filters and wish list"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.softwaretestingboard.magento.runners.TestRunner@2f7c2f4f]" started-at="2024-08-01T22:52:37 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T22:52:50 CEST" duration-ms="12517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add items in the wish list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wish list test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.softwaretestingboard.magento.runners.TestRunner@2f7c2f4f]" started-at="2024-08-01T22:52:50 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-01T22:53:04 CEST" duration-ms="13742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add items to Shopping Cart and verify the total"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Wish list test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.softwaretestingboard.magento.runners.TestRunner@2f7c2f4f]" started-at="2024-08-01T22:53:04 CEST" name="tearDownClass" finished-at="2024-08-01T22:53:04 CEST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.softwaretestingboard.magento.runners.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
